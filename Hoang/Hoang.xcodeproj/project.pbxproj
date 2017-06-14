@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207C03321EF13EF5008A73E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C03311EF13EF5008A73E6 /* AppDelegate.swift */; };
+		207C03341EF13EF5008A73E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C03331EF13EF5008A73E6 /* ViewController.swift */; };
+		207C03371EF13EF5008A73E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207C03351EF13EF5008A73E6 /* Main.storyboard */; };
+		207C033A1EF13EF5008A73E6 /* Hoang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 207C03381EF13EF5008A73E6 /* Hoang.xcdatamodeld */; };
+		207C033C1EF13EF5008A73E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207C033B1EF13EF5008A73E6 /* Assets.xcassets */; };
+		207C033F1EF13EF5008A73E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207C033D1EF13EF5008A73E6 /* LaunchScreen.storyboard */; };
+		207C034A1EF13EF5008A73E6 /* HoangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C03491EF13EF5008A73E6 /* HoangTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207C03461EF13EF5008A73E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207C03261EF13EF5008A73E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207C032D1EF13EF5008A73E6;
+			remoteInfo = Hoang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207C032E1EF13EF5008A73E6 /* Hoang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207C03311EF13EF5008A73E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		207C03331EF13EF5008A73E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		207C03361EF13EF5008A73E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207C03391EF13EF5008A73E6 /* Hoang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hoang.xcdatamodel; sourceTree = "<group>"; };
+		207C033B1EF13EF5008A73E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207C033E1EF13EF5008A73E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207C03401EF13EF5008A73E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207C03451EF13EF5008A73E6 /* HoangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207C03491EF13EF5008A73E6 /* HoangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoangTests.swift; sourceTree = "<group>"; };
+		207C034B1EF13EF5008A73E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207C032B1EF13EF5008A73E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C03421EF13EF5008A73E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207C03251EF13EF5008A73E6 = {
+			isa = PBXGroup;
+			children = (
+				207C03301EF13EF5008A73E6 /* Hoang */,
+				207C03481EF13EF5008A73E6 /* HoangTests */,
+				207C032F1EF13EF5008A73E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207C032F1EF13EF5008A73E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207C032E1EF13EF5008A73E6 /* Hoang.app */,
+				207C03451EF13EF5008A73E6 /* HoangTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207C03301EF13EF5008A73E6 /* Hoang */ = {
+			isa = PBXGroup;
+			children = (
+				207C03311EF13EF5008A73E6 /* AppDelegate.swift */,
+				207C03331EF13EF5008A73E6 /* ViewController.swift */,
+				207C03351EF13EF5008A73E6 /* Main.storyboard */,
+				207C033B1EF13EF5008A73E6 /* Assets.xcassets */,
+				207C033D1EF13EF5008A73E6 /* LaunchScreen.storyboard */,
+				207C03401EF13EF5008A73E6 /* Info.plist */,
+				207C03381EF13EF5008A73E6 /* Hoang.xcdatamodeld */,
+			);
+			path = Hoang;
+			sourceTree = "<group>";
+		};
+		207C03481EF13EF5008A73E6 /* HoangTests */ = {
+			isa = PBXGroup;
+			children = (
+				207C03491EF13EF5008A73E6 /* HoangTests.swift */,
+				207C034B1EF13EF5008A73E6 /* Info.plist */,
+			);
+			path = HoangTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207C032D1EF13EF5008A73E6 /* Hoang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207C034E1EF13EF5008A73E6 /* Build configuration list for PBXNativeTarget "Hoang" */;
+			buildPhases = (
+				207C032A1EF13EF5008A73E6 /* Sources */,
+				207C032B1EF13EF5008A73E6 /* Frameworks */,
+				207C032C1EF13EF5008A73E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hoang;
+			productName = Hoang;
+			productReference = 207C032E1EF13EF5008A73E6 /* Hoang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207C03441EF13EF5008A73E6 /* HoangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207C03511EF13EF5008A73E6 /* Build configuration list for PBXNativeTarget "HoangTests" */;
+			buildPhases = (
+				207C03411EF13EF5008A73E6 /* Sources */,
+				207C03421EF13EF5008A73E6 /* Frameworks */,
+				207C03431EF13EF5008A73E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207C03471EF13EF5008A73E6 /* PBXTargetDependency */,
+			);
+			name = HoangTests;
+			productName = HoangTests;
+			productReference = 207C03451EF13EF5008A73E6 /* HoangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207C03261EF13EF5008A73E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hoang;
+				TargetAttributes = {
+					207C032D1EF13EF5008A73E6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					207C03441EF13EF5008A73E6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 207C032D1EF13EF5008A73E6;
+					};
+				};
+			};
+			buildConfigurationList = 207C03291EF13EF5008A73E6 /* Build configuration list for PBXProject "Hoang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207C03251EF13EF5008A73E6;
+			productRefGroup = 207C032F1EF13EF5008A73E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207C032D1EF13EF5008A73E6 /* Hoang */,
+				207C03441EF13EF5008A73E6 /* HoangTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207C032C1EF13EF5008A73E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C033F1EF13EF5008A73E6 /* LaunchScreen.storyboard in Resources */,
+				207C033C1EF13EF5008A73E6 /* Assets.xcassets in Resources */,
+				207C03371EF13EF5008A73E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C03431EF13EF5008A73E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207C032A1EF13EF5008A73E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C033A1EF13EF5008A73E6 /* Hoang.xcdatamodeld in Sources */,
+				207C03341EF13EF5008A73E6 /* ViewController.swift in Sources */,
+				207C03321EF13EF5008A73E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C03411EF13EF5008A73E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C034A1EF13EF5008A73E6 /* HoangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207C03471EF13EF5008A73E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207C032D1EF13EF5008A73E6 /* Hoang */;
+			targetProxy = 207C03461EF13EF5008A73E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207C03351EF13EF5008A73E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207C03361EF13EF5008A73E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207C033D1EF13EF5008A73E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207C033E1EF13EF5008A73E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207C034C1EF13EF5008A73E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207C034D1EF13EF5008A73E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207C034F1EF13EF5008A73E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hoang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.Hoang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		207C03501EF13EF5008A73E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hoang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.Hoang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		207C03521EF13EF5008A73E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.HoangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoang.app/Hoang";
+			};
+			name = Debug;
+		};
+		207C03531EF13EF5008A73E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.HoangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoang.app/Hoang";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207C03291EF13EF5008A73E6 /* Build configuration list for PBXProject "Hoang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C034C1EF13EF5008A73E6 /* Debug */,
+				207C034D1EF13EF5008A73E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207C034E1EF13EF5008A73E6 /* Build configuration list for PBXNativeTarget "Hoang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C034F1EF13EF5008A73E6 /* Debug */,
+				207C03501EF13EF5008A73E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		207C03511EF13EF5008A73E6 /* Build configuration list for PBXNativeTarget "HoangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C03521EF13EF5008A73E6 /* Debug */,
+				207C03531EF13EF5008A73E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		207C03381EF13EF5008A73E6 /* Hoang.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				207C03391EF13EF5008A73E6 /* Hoang.xcdatamodel */,
+			);
+			currentVersion = 207C03391EF13EF5008A73E6 /* Hoang.xcdatamodel */;
+			path = Hoang.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 207C03261EF13EF5008A73E6 /* Project object */;
+}
